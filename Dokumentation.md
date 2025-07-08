@@ -46,3 +46,21 @@ Und Grundlagen echo Sequenzen. Lernen selbst Sequenzen zu erstellen und sich anz
 
 _Stand 22.05.2025_ : Warnings herausfinden und beheben   
 
+
+
+50 Ohm Lamourfrequenz
+Gaußmeter Feldstärke messer
+
+Spektrum analysator zur Spulen einstellung
+
+https://de.wikipedia.org/wiki/Gyromagnetisches_Verh%C3%A4ltnis
+42,577
+
+
+smith chart 
+
+
+42,577   ×   0,04639 = 1,97514 MHz
+
+Dahin muss die Resonanz geschoben werden mit dem Kapazitäten
+Die kapazitäten anpassen damit und austauschen damit der smithchart auf 1 kommt und die spule an die resonanzfrequenz angepasst wird.
