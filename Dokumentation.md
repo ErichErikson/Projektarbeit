@@ -75,3 +75,11 @@ weitere schaltung:
 transmit receive switch
 
 s21 richtung stellt richtung von port dar
+
+
+
+C3, c9, c34, c17 müssen größer werden
+
+lambda/4 Spule 
+3.9 uH 
+1.6 nF
