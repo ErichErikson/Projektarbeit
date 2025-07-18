@@ -64,3 +64,14 @@ smith chart
 
 Dahin muss die Resonanz geschoben werden mit dem Kapazitäten
 Die kapazitäten anpassen damit und austauschen damit der smithchart auf 1 kommt und die spule an die resonanzfrequenz angepasst wird.
+
+Kondensator regler  6-110 pF
+
+Einzelne 1x 47
+1x 22 + 101
+
+
+weitere schaltung: 
+transmit receive switch
+
+s21 richtung stellt richtung von port dar
