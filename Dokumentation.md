@@ -57,8 +57,6 @@ external
 
 
 
-
-
 ## Erste Einrichtung am Oszilloskop
 
 Gradient Chanel 1 auf Oszilloskop 2
@@ -78,6 +76,8 @@ Und Grundlagen echo Sequenzen. Lernen selbst Sequenzen zu erstellen und sich anz
 (Schonmal lesen). ) 
 
 _Stand 22.05.2025_ : Warnings herausfinden und beheben   
+
+_Stand 18.07.2025_ : C3, c9, c34, c17 müssen größer werden auf PCB Board für Tx, Coil, Rx
 
 
 ## Spule physisch auf Frequenz des MRTs einstellen
