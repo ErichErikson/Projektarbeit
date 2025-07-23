@@ -13,7 +13,7 @@ _nur einmal am Anfang_
 Wenn die Adresse in Internet aufgerufen wird, gibt es ein bearbeitungsmenü in dem auch feste IPs zugewiesen werden können
 
 1. In marcos_client/ local_config.py.example (example löschen danach -> nur noch local_config.py)
-2. IP hier anpassen in die herausgefundene (172.16.8.254)
+2. IP hier anpassen in die herausgefundene (172.16.8.107)
 3. fpa_clk_freq_MHz 125 auskommentieren und 122.88 reinschreiben
 4. grad_board muss ocra1 sein
 5. In marcos_experiments/ mri_config.py.examles (examle löschen -> nur noch mri_config.py)
