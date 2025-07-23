@@ -2,23 +2,47 @@
 *Datum:* _Stand: 01. Juni 2025_  
 *Autor:* Erik Ziechmann
 
+## Erste Einrichtung MRT
+_nur einmal am Anfang_
+
+1. Geräte Manager COM Port herausfinden
+2. PuTTy mit der COM Adresse (hier COM5) öffnen
+3. IP addr show eingeben
+4. Inet Adresse beschreibt Adresse von Board
+
+Wenn die Adresse in Internet aufgerufen wird, gibt es ein bearbeitungsmenü in dem auch feste IPs zugewiesen werden können
+
+1. In marcos_client/ local_config.py.example (example löschen danach -> nur noch local_config.py)
+2. IP hier anpassen in die herausgefundene (172.16.8.254)
+3. fpa_clk_freq_MHz 125 auskommentieren und 122.88 reinschreiben
+4. grad_board muss ocra1 sein
+5. In marcos_experiments/ mri_config.py.examles (examle löschen -> nur noch mri_config.py)
+
+
 ## Ablauf Einrichtung MRT
 _jedes mal vor Nutzung des MRTs_
 
 1. Terminal aufrufen
 2. Ubuntu auswählen (oben)
 3. Folgende Befehle ausführen  
-- ls  
 - cd git
-- ls 
-- cd marcos_pack/
-- ls
-- cd marcos_extras/
+- cd marcos_pack/ (https://github.com/catkira/marcos_pack.git)
+- cd marcos_extras/ (https://github.com/vnegnev/marcos_extras.git)
 - ./marcos_setup.sh ^C
-- ./marcos_setup.sh 172.16.8.254 rp-122
+- ./marcos_setup.sh 172.16.8.254 rp-122 (alt: 172.16.8.254)
 - angezeigten Befehl kopieren und ausführen
 4. VS Code öffnen und nun ist es möglich Code auszuführen
 5. (eventuell Befehle danach: cd git, git remote)
+
+**Wichtig:** beim ersten einrichten und ertem zugriff auf Konsole ssh-copy-ip root@172.16.8.254 (passwort ist root)
+
+## Einrichtung des Codes
+
+1. Visual Studio Code öffnen
+2. Marcos Client öffnen (https://github.com/catkira/marcos_client.git)
+3. IP Adresse an Board anpassen (gefunden in der ersten Einrichtung)
+4. Test loopback code öffnen -> Ergebnisse mit loop schauen
+5. Danach können Sequenzen laufen
 
 ## Erste Einrichtung am PC
 Git anpassen an catkira
