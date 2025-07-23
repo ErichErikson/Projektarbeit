@@ -19,6 +19,7 @@ Wenn die Adresse in Internet aufgerufen wird, gibt es ein bearbeitungsmenü in d
 5. In marcos_experiments/ mri_config.py.examles (examle löschen -> nur noch mri_config.py)
 6. grad_max_Hz_per_m muss nur = 10.9e6 sein, andere auskommentieren
 7. In marcos_experiments/ external.py.examples (example löschen -> nur noch external.py)
+8. flocra_pulseq muss aus git gezogen werden (https://github.com/catkira/flocra-pulseq.git). Hier pulseq_1.4
 
 
 ## Ablauf Einrichtung MRT
