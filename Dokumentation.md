@@ -42,7 +42,6 @@ _jedes mal vor Nutzung des MRTs_
 
 1. Visual Studio Code öffnen
 2. Marcos Client öffnen (https://github.com/catkira/marcos_client.git)
-3. IP Adresse an Board anpassen (gefunden in der ersten Einrichtung)
 4. Test loopback code öffnen -> Ergebnisse mit loop schauen (RX1 und Tx physisch verbunden)
 5. Danach können Sequenzen laufen
 
@@ -60,15 +59,7 @@ external
 
 
 
-
-
-## Erste Einrichtung am PC
-Git anpassen an catkira
-
-Software auf System laden (jedes  mal) 
-Befehl noch schauen 
-
-Loopback test ausführen 
+## Erste Einrichtung am Oszilloskop
 
 Gradient Chanel 1 auf Oszilloskop 2
 TxGate auf auf Oszilloskop 1
@@ -89,25 +80,24 @@ Und Grundlagen echo Sequenzen. Lernen selbst Sequenzen zu erstellen und sich anz
 _Stand 22.05.2025_ : Warnings herausfinden und beheben   
 
 
+## Spule physisch auf Frequenz des MRTs einstellen
 
-50 Ohm Lamourfrequenz
-Gaußmeter Feldstärke messer
+50 Ohm Lamourfrequenz ist das Ziel
+Mit dem Gaußmeter Feldstärke messer wird die Feldstärke des MRTs gemessen
 
-Spektrum analysator zur Spulen einstellung
+Jetzt soll eine kleine Spule auf die gleiche Stärke gebracht werden
+
+Spektrum analysator wird zur kleinen Spulen einstellung genutzt
+Dafür verschiedene Kondensatoren mit verschiedenen Größen auf den Aufbau der kleinen Spule gelötet um einen bestimmten MHz Wert zu erhalten:
 
 https://de.wikipedia.org/wiki/Gyromagnetisches_Verh%C3%A4ltnis
 42,577
-
-
-smith chart 
-
-
 42,577   ×   0,04639 = 1,97514 MHz
 
-Dahin muss die Resonanz geschoben werden mit dem Kapazitäten
+Dahin muss die Resonanz auf einem smith chart geschoben werden mit dem Kapazitäten
 Die kapazitäten anpassen damit und austauschen damit der smithchart auf 1 kommt und die spule an die resonanzfrequenz angepasst wird.
 
-Kondensator regler  6-110 pF
+Die Kondensator regler haben dabei einen Wert von 6-110 pF
 
 Einzelne 1x 47
 1x 22 + 101
