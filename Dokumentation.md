@@ -17,6 +17,8 @@ Wenn die Adresse in Internet aufgerufen wird, gibt es ein bearbeitungsmenü in d
 3. fpa_clk_freq_MHz 125 auskommentieren und 122.88 reinschreiben
 4. grad_board muss ocra1 sein
 5. In marcos_experiments/ mri_config.py.examles (examle löschen -> nur noch mri_config.py)
+6. grad_max_Hz_per_m muss nur = 10.9e6 sein, andere auskommentieren
+7. In marcos_experiments/ external.py.examples (example löschen -> nur noch external.py)
 
 
 ## Ablauf Einrichtung MRT
@@ -42,6 +44,22 @@ _jedes mal vor Nutzung des MRTs_
 3. IP Adresse an Board anpassen (gefunden in der ersten Einrichtung)
 4. Test loopback code öffnen -> Ergebnisse mit loop schauen (RX1 und Tx physisch verbunden)
 5. Danach können Sequenzen laufen
+
+
+## Wichtige Bibliotheken
+
+numpy
+matplotlib
+msgpack
+PyQt5
+scipy
+external
+
+
+
+
+
+
 
 ## Erste Einrichtung am PC
 Git anpassen an catkira
