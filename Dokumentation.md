@@ -40,7 +40,7 @@ _jedes mal vor Nutzung des MRTs_
 1. Visual Studio Code öffnen
 2. Marcos Client öffnen (https://github.com/catkira/marcos_client.git)
 3. IP Adresse an Board anpassen (gefunden in der ersten Einrichtung)
-4. Test loopback code öffnen -> Ergebnisse mit loop schauen
+4. Test loopback code öffnen -> Ergebnisse mit loop schauen (RX1 und Tx physisch verbunden)
 5. Danach können Sequenzen laufen
 
 ## Erste Einrichtung am PC
