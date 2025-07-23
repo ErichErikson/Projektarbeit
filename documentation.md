@@ -43,7 +43,6 @@ _each time before using the MRI_
 
 1. Open Visual Studio Code  
 2. Open marcos_client (https://github.com/catkira/marcos_client.git)  
-3. Set IP address to the board address (from initial setup)  
 4. Open test loopback code → verify results with loop (RX1 and TX physically connected)  
 5. Now sequences can be run
 
