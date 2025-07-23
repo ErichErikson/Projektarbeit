@@ -1,5 +1,5 @@
 # Documentation – Project Workflow  
-*Date:* _As of: June 1st, 2025_  
+*Date:* _As of: July 23th, 2025_  
 *Author:* Erik Ziechmann
 
 ## Initial MRI Setup  
