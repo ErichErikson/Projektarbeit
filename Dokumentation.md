@@ -28,7 +28,6 @@ _jedes mal vor Nutzung des MRTs_
 - cd git
 - cd marcos_pack/ (https://github.com/catkira/marcos_pack.git)
 - cd marcos_extras/ (https://github.com/vnegnev/marcos_extras.git)
-- ./marcos_setup.sh ^C
 - ./marcos_setup.sh 172.16.8.254 rp-122 (alt: 172.16.8.254)
 - angezeigten Befehl kopieren und ausführen
 4. VS Code öffnen und nun ist es möglich Code auszuführen
