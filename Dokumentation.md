@@ -28,12 +28,12 @@ _jedes mal vor Nutzung des MRTs_
 - cd git
 - cd marcos_pack/ (https://github.com/catkira/marcos_pack.git)
 - cd marcos_extras/ (https://github.com/vnegnev/marcos_extras.git)
-- ./marcos_setup.sh 172.16.8.254 rp-122 (alt: 172.16.8.254)
+- ./marcos_setup.sh 172.16.8.107 rp-122 (alt: 172.16.8.254)
 - angezeigten Befehl kopieren und ausführen
 4. VS Code öffnen und nun ist es möglich Code auszuführen
 5. (eventuell Befehle danach: cd git, git remote)
 
-**Wichtig:** beim ersten einrichten und ertem zugriff auf Konsole ssh-copy-ip root@172.16.8.254 (passwort ist root)
+**Wichtig:** beim ersten einrichten und ertem zugriff auf Konsole ssh-copy-ip root@172.16.8.107 (passwort ist root)
 
 ## Einrichtung des Codes
 
